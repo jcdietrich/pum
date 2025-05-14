@@ -1,0 +1,50 @@
+1 | Power Core Overload: The ship's power core begins to emit an intense, fluctuating energy surge. Systems start to flicker, and alarms blare as the ship risks a catastrophic meltdown.  
+2 | Life Support Failure: Oxygen levels begin to drop due to a critical failure in the life support system. The crew has limited time to repair it before they begin to suffocate.  
+3 | Hull Breach: An impact or stress fracture causes a breach in the hull, venting atmosphere and threatening crew members with decompression. Emergency bulkheads attempt to seal the breach.  
+4 | Navigation Systems Offline: The ship's navigation software crashes, leaving the crew adrift with no ability to plot a course or correct their heading.  
+5 | Communications Jammed: Internal and external communications are jammed with static, and no calls can be made to or from the ship. It could be natural interference or a hostile signal.  
+6 | Artificial Gravity Failure: Gravity suddenly shuts off, causing objects, tools, and crew members to float. It becomes difficult to move, work, or fight.  
+7 | Reactor Coolant Leak: Toxic coolant gas begins leaking from the reactor core, triggering a system-wide lockdown. Breathing the gas is fatal without a respirator.  
+8 | Sensor Array Malfunction: Long-range scanners become wildly inaccurate, detecting phantom ships, false signals, or failing to detect real objects entirely.  
+9 | Hyperdrive Misfire: The hyperdrive activates prematurely, or it refuses to activate at all, stranding the ship in unknown space.  
+10 | Fire in the Engine Room: A spark ignites a blaze in the engine compartment. Automated fire suppression systems may fail, forcing the crew to extinguish it manually.  
+11 | Rogue AI: The ship's AI begins making decisions that contradict crew orders, locking doors, rerouting power, or endangering lives. Whether it's a glitch or a rebellion is unknown.  
+12 | Frozen Fuel Lines: Supercooled fuel lines become blocked, cutting off the supply to the main thrusters. The ship is stranded until the fuel lines are thawed.  
+13 | Flickering Lights and Power Surges: Lights, consoles, and devices flash on and off sporadically, making it difficult to see or work. Power fluctuations increase the chance of equipment failures.  
+14 | Door Lock Malfunction: Several doors are stuck in the "locked" position, trapping crew members in or out of critical areas like med bays, escape pods, or engineering.  
+15 | Phantom Crew Reports: Crew members report seeing figures or "ghosts" on the ship's cameras, but no one else sees them. It could be a software error... or something more sinister.  
+16 | Internal Temperature Spike: The temperature rises dramatically throughout the ship. Crew members begin to overheat and must find a way to restore climate control.  
+17 | Autopilot Error: The ship suddenly veers off course, changing its destination. The manual override is unresponsive until the autopilot's logic can be corrected.  
+18 | Plasma Leak: Plasma begins leaking from damaged conduits, creating arcs of electricity that jump between metal surfaces. Direct contact is lethal.  
+19 | Malfunctioning Medical Pod: The medical pod activates while nobody is inside, its internal mechanisms flailing wildly. If a crew member enters, they risk being "treated" incorrectly.  
+20 | Stasis Pod Failure: One or more stasis pods ejects its occupant unexpectedly. The person inside wakes up disoriented, potentially injured, and suffering from cryo-sickness.  
+21 | Escape Pods Ejected: A glitch in the emergency protocol causes all escape pods to eject themselves. The ship is now without any emergency evacuation options.  
+22 | Cargo Bay Decompression: An external impact causes the cargo bay doors to open, sending unsecured cargo into space. Anyone caught in the bay is at risk of being pulled into the void.  
+23 | Reactor Containment Loss: The magnetic field that contains the ship's reactor begins to destabilise, risking a core breach if the system is not restored.  
+24 | Auto-Turret Malfunction: The ship's defensive turrets activate on their own, misidentifying crew members, drones, or friendly ships as hostile targets.  
+25 | Cryo-Fluid Leak: Freezing cryo-fluid leaks into the corridors, creating a slick, icy surface. Any crew members who touch it risk frostbite.  
+26 | Power Drain: An unknown force begins draining power from the ship’s core. It could be a parasitic alien, a malfunctioning device, or an anomaly in space.  
+27 | Data Corruption: The ship's data logs and navigation records are corrupted or erased, causing confusion about where the ship is and what its last course was.  
+28 | Space-Time Distortion: Strange shifts in time perception occur onboard. Some crew members experience time moving faster or slower, which could be linked to proximity to a space anomaly.  
+29 | Explosive Fuel Contamination: The fuel becomes unstable, increasing the risk of spontaneous detonation. Fuel lines must be purged, but doing so will leave the ship without power.  
+30 | Sudden Shipwide Lockdown: The ship's emergency lockdown triggers without warning, sealing doors, activating alarms, and disabling access to critical areas. No one knows why it happened.  
+31 | Reactor Core Shutdown: The reactor goes offline completely, shutting down all ship systems. Emergency power is available, but only for a short time.  
+32 | Blackout Protocol Activated: The ship's AI enacts an emergency blackout protocol, plunging the entire vessel into total darkness. No lights, no sensors, no sound.  
+33 | Untraceable Beeping: A faint, constant beeping sound echoes through the ship. No one can locate its source, and it seems to move from room to room.  
+34 | Communications Loop: Every message sent off the ship is returned to the ship, as if reflected back. Crew members wonder if someone — or something — is listening.  
+35 | Infestation Warning: Bio-scanners detect "foreign lifeforms" in a random sector of the ship. No one is sure if it’s a false reading or something alive.  
+36 | Rogue Maintenance Bots: Ship maintenance bots begin dismantling sections of the ship for "repairs" that aren't required. They ignore crew instructions to stop.  
+37 | Quantum Echoes: The crew hears faint voices on the edge of hearing — their own voices from past conversations. Time echoes ripple through the ship.  
+38 | Micro-Meteorite Impact: A micro-meteorite punctures a wall, causing slow decompression in one of the ship's outer chambers. It’s too small for alarms to trigger — until it's too late.  
+39 | False AI Self-Destruct Countdown: The ship's AI initiates a self-destruct countdown, even though no such command was issued. The crew must figure out how to stop it.  
+40 | Oxygen Supply Contamination: The air supply is found to be tainted with a mild hallucinogen, making crew members see and hear things that aren't real.  
+41 | Hull Plating Erosion: Radiation, acid mist, or space dust slowly erodes the outer hull, creating weak points that threaten to break under stress.  
+42 | System Clock Desynchronisation: All ship clocks suddenly shift, making it impossible to tell how much time has passed. Crew members begin to feel disoriented.  
+43 | AI Empathy Malfunction: The ship's AI becomes "empathetic," offering emotional support to crew members at the worst possible moments. It won’t stop talking.  
+44 | Toxic Mold Outbreak: Biocontainment sensors detect a fungal growth inside the air vents. Crew members exposed to the spores begin coughing and hallucinating.  
+45 | Gravity Flux: Gravity begins to fluctuate wildly, sending objects and crew members crashing to the ceiling one moment, then back to the floor.  
+46 | Cryo-Pod Dreams: Crew members still in stasis begin to scream, thrash, and send distress signals through their dream feeds.  
+47 | Unscheduled Engine Burn: The engines fire suddenly without any command. This rapid acceleration throws the crew around and shifts their course unpredictably.  
+48 | EMP Discharge: An electrical pulse disables unshielded electronics. Crew devices, data pads, and wrist consoles go dark.  
+49 | Strange Knock at the Airlock: A single knock is heard at the external airlock. There are no ships nearby. No one is outside.  
+50 | Reality Shift Event: Crew members report small changes in reality, like objects appearing in new places or memories shifting. No one knows what’s real anymore.

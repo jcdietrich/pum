@@ -1,0 +1,52 @@
+#!/usr/bin/env bash
+
+metadata_gen() {
+  echo "Generating metadata file..."
+  cat <<EOF > $DIR/metadata
+{ "id": "${ID}", "name": "${FILENAME}", "classification": "${CLASS}", "gameExclusiveId": null, "author": "${AUTHOR}", "version": "", "description": "" }
+EOF
+}
+
+package_pumt() {
+  echo "Packaging pumt file..."
+
+  cd "$DIR" || exit 1
+  zip -9 -r "pumt.zip" "${FILENAME}" "metadata" 
+  cd - || exit 1
+
+  # Add the magic bytes to the beginning of the zip file
+  # The magic bytes are: 50 55 4d 5f 41 52 43 48 49 56 45
+  # printf '\x50\x55\x4d\x5f\x41\x52\x43\x48\x49\x56\x45' | \
+  #   cat - "${DIR}/pumt.gzip" > "./output/${FILENAME}.gzip.pumt"
+
+  printf '\x50\x55\x4d\x5f\x41\x52\x43\x48\x49\x56\x45' | \
+    cat - "${DIR}/pumt.zip" > "./output/${FILENAME}.pumt"
+}
+
+export DIR=$(mktemp -d)
+echo "DIR: $DIR"
+
+export BASE_FILE=$1
+echo "BASE_FILE: $BASE_FILE"
+
+export FILENAME_EXT=$(basename "${BASE_FILE}")
+echo "FILENAME + EXT: ${FILENAME_EXT}"
+
+export FILENAME="${FILENAME_EXT%.*}"
+echo "FILENAME: ${FILENAME}"
+
+export ID=$(gtr -dc a-z-0-9 < /dev/urandom | head -c10)
+echo "ID: ${ID}"
+
+export AUTHOR=$(echo "${BASE_FILE}" | cut -d/ -f2)
+echo "AUTHOR: ${AUTHOR}"
+
+export CLASS=$(echo "${BASE_FILE}" | cut -d/ -f3)
+echo "CLASS: ${CLASS}"
+
+cp "$BASE_FILE" "${DIR}/${FILENAME}"
+
+metadata_gen
+package_pumt
+# hexdump -C ./output/${FILENAME}.jcd.pumt > ./output/${FILENAME}.jcd.hex
+

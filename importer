@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+TARGET_DIR="$1"
+PREFIX="$2"
+
+cd "${TARGET_DIR}" || exit 1
+
+for NAME in *.pumt; do
+  unzip -n "${NAME}" 
+done
+
+rm -f *.pumt
+rm metadata
+
+rename -c -s '(' '' -s ')' '' -s "${PREFIX} " '' -a "_${PREFIX}" *

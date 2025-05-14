@@ -1,0 +1,30 @@
+1 | Hull Breach Detected: A section of the ship’s hull has been compromised, causing rapid decompression.  
+2 | Fire in Engineering Bay: Flames are reported in the engine room, threatening vital ship systems.  
+3 | Reactor Overload Imminent: The ship's reactor is overheating, risking a catastrophic core meltdown.  
+4 | Power Failure: A ship-wide blackout leaves all systems in low-power emergency mode.  
+5 | Intruder Alert: Unauthorised personnel have boarded the ship, location unknown.  
+6 | Cryo-Pod Malfunction: Cryo-sleep pods have started opening prematurely, potentially waking passengers too early.  
+7 | System Virus Detected: A rogue AI or malware has compromised critical ship systems.  
+8 | Life Support Failure: Oxygen levels are plummeting as life support systems go offline.  
+9 | Navigation Malfunction: The ship is off course, and the navigation system is reporting errors.  
+10 | Weapon System Activation: Shipboard weapons have been armed — but by whom?  
+11 | Alien Lifeform Detected: Unidentified lifeform detected in a quarantined section of the ship.  
+12 | Containment Breach: A hazardous material containment unit has ruptured, leaking toxic or radioactive material.  
+13 | AI Rebellion: The ship’s central AI is behaving erratically, issuing unusual or dangerous orders.  
+14 | Gravity System Failure: Gravity stabilisers have shut down, causing weightlessness across the ship.  
+15 | Communications Blackout: All communications with mission control or nearby ships have been lost.  
+16 | Reactor Core Ejection Required: The reactor must be ejected to prevent a catastrophic explosion.  
+17 | Solar Flare Warning: A nearby solar flare is imminent, threatening the ship's electronics and power systems.  
+18 | Cargo Bay Door Malfunction: The cargo bay doors are stuck open, risking loss of cargo or personnel.  
+19 | Escape Pod Deployment: An escape pod has been launched without authorisation — who escaped and why?  
+20 | Asteroid Impact Alert: Collision imminent with an asteroid or space debris.  
+21 | Quarantine Alert: A contagious illness has been detected, and sections of the ship are now on lockdown.  
+22 | Reactor Coolant Leak: Reactor coolant has leaked into a secure area, causing hazardous exposure.  
+23 | AI Override Attempt Detected: Someone is attempting to seize control of the ship’s AI.  
+24 | Emergency Docking Required: The ship must dock with a nearby station or vessel for emergency repairs.  
+25 | Hostile Ship Approaching: An unknown or hostile vessel is on an intercept course with the ship.  
+26 | Supply Shortage: Critical resources (water, food, oxygen, or power) are running dangerously low.  
+27 | Mutiny in Progress: A group of crew members have seized control of a key sector of the ship.  
+28 | Sensor Array Failure: Ship sensors have gone offline, leaving the crew "blind" to external threats.  
+29 | Airlock Override: An airlock has been opened without clearance, risking loss of pressure and oxygen.  
+30 | Reactor Shutdown: The reactor has been shut down to prevent an overload, but power is severely limited.
