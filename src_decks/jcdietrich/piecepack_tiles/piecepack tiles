@@ -1,0 +1,369 @@
+{
+  "id": "nw8ilommtb",
+  "templateId": "4xqglgssf2",
+  "name": "piecepack tiles",
+  "rotation": 0,
+  "cards": [
+    {
+      "fileName": "tile-a0.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-a1.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-a2.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-a3.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-a4.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-a5.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-b0.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-b1.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-b2.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-b3.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-b4.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-b5.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-c0.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-c1.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-c2.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-c3.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-c4.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-c5.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-d0.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-d1.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-d2.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-d3.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-d4.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-d5.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-f0.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-f1.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-f2.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-f3.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-f4.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-f5.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-h0.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-h1.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-h2.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-h3.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-h4.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-h5.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-m0.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-m1.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-m2.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-m3.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-m4.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-m5.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-n0.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-n1.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-n2.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-n3.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-n4.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-n5.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-p0.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-p1.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-p2.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-p3.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-p4.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-p5.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-s0.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-s1.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-s2.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-s3.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-s4.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-s5.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-u0.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-u1.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-u2.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-u3.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-u4.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-u5.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-w0.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-w1.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-w2.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-w3.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-w4.png",
+      "width": 139,
+      "height": 139
+    },
+    {
+      "fileName": "tile-w5.png",
+      "width": 139,
+      "height": 139
+    }
+  ],
+  "drawn": []
+}

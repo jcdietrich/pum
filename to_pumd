@@ -1,0 +1,102 @@
+#!/usr/bin/env bash
+
+generate_metadata_file() {
+  echo "Generating metadata file..."
+  cat <<EOF > "${DIR}/metadata"
+{
+  "id": "${TEMPLATE_ID}",
+  "name": "${BASE_DIR_NAME}",
+  "classification": "", 
+  "gameExclusiveId": null,
+  "author": "${AUTHOR}",
+  "version": "",
+  "description": ""
+}
+EOF
+}
+
+generate_deck_file() {
+  echo "Generating deck file..."
+  cat <<EOF > "${DIR}/deck.json"
+{
+  "id": "${ID}",
+  "templateId": "${TEMPLATE_ID}",
+  "name": "${NAME}",
+  "rotation": 0,
+  "cards": null 
+}
+EOF
+
+  touch "${DIR}/cards.jsonl"
+
+  # creates a jsonl file with the image names and their dimensions
+  # and copies the images to the temp directory
+
+  for IMAGE in "${FULL_PATH_DIR}/*.png"; do
+    echo "Processing $IMAGE"
+    identify -ping -format '{"fileName": "%f", "width": %w, "height":  %h}' "$IMAGE" >> "${DIR}/cards.jsonl"
+    cp "${IMAGE}" "${DIR}"
+  done
+
+  # convert the jsonl file to a json file
+
+  jq -s '.' "${DIR}/cards.jsonl" > "${DIR}/cards.json"
+  rm cards.jsonl
+
+  jq '.cards = input' "${DIR}/deck.json" "${DIR}/cards.json" > "${DIR}/${BASE_DIR_NAME}"
+}
+
+package_pumd() {
+  echo "Packaging pumd file..."
+
+  cd "$DIR" || exit 1
+  rm cards.json deck.json
+
+  zip -9 -r "pumd.zip" *
+  cd - || exit 1
+
+  touch "./output/${NAME}.pumd"
+  # Add the magic bytes to the beginning of the zip file
+  # The magic bytes are: 50 55 4d 5f 41 52 43 48 49 56 45
+  # printf '\x50\x55\x4d\x5f\x41\x52\x43\x48\x49\x56\x45' | \
+  #   cat - "${DIR}/pumt.gzip" > "./output/${FILENAME}.gzip.pumt"
+
+  printf '\x50\x55\x4d\x5f\x41\x52\x43\x48\x49\x56\x45' | \
+    cat - "${DIR}/pumd.zip" > "./output/${NAME}.pumd"
+
+}
+export BASE_DIR="$1"
+echo "BASE_DIR: $BASE_DIR"
+
+export BASE_DIR_NAME=$(basename "${BASE_DIR}")
+echo "BASE_DIR_NAME: $BASE_DIR_NAME"
+
+export FULL_PATH_DIR=$(realpath "${BASE_DIR}")
+echo "FULL_PATH_DIR: $FULL_PATH_DIR"
+
+export DIR=$(mktemp -d)
+echo "DIR: $DIR"
+
+export ID=$(gtr -dc a-z-0-9 < /dev/urandom | head -c10)
+echo "ID: ${ID}"
+
+export TEMPLATE_ID=$(gtr -dc a-z-0-9 < /dev/urandom | head -c10)
+echo "TEMPLATE_ID: ${TEMPLATE_ID}"
+
+export AUTHOR=$(echo "${BASE_DIR}" | cut -d/ -f3)
+echo "AUTHOR: ${AUTHOR}"
+
+export NAME=$(echo "${BASE_DIR}" | cut -d/ -f4)
+echo "NAME: ${NAME}"
+
+export ID=$(gtr -dc a-z-0-9 < /dev/urandom | head -c10)
+echo "ID: ${ID}"
+
+export TEMPLATE_ID=$(gtr -dc a-z-0-9 < /dev/urandom | head -c10)
+echo "TEMPLATE_ID: ${TEMPLATE_ID}"
+
+generate_metadata_file
+generate_deck_file
+clean_tempdir
+add_image_files
+package_pumd

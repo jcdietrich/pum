@@ -21,6 +21,7 @@ package_pumt() {
 
   printf '\x50\x55\x4d\x5f\x41\x52\x43\x48\x49\x56\x45' | \
     cat - "${DIR}/pumt.zip" > "./output/${FILENAME}.pumt"
+
 }
 
 export DIR=$(mktemp -d)
@@ -48,5 +49,3 @@ cp "$BASE_FILE" "${DIR}/${FILENAME}"
 
 metadata_gen
 package_pumt
-# hexdump -C ./output/${FILENAME}.jcd.pumt > ./output/${FILENAME}.jcd.hex
-
