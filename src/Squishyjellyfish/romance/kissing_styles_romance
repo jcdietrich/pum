@@ -1,1 +1,26 @@
-{"name":"Kissing Styles","type":"simple","entries":{"0":"1 | Soft and lingering – A slow, tender kiss that conveys warmth and deep affection.","1":"2 | Passionate and urgent – Lips crash together with intensity, filled with desire and impatience.","2":"3 | Teasing and playful – A quick peck followed by another, smiles breaking between each touch.","3":"4 | Slow and deep – A gradual build-up, where every movement feels deliberate and intimate.","4":"5 | Hungry and demanding – A fierce kiss that leaves no room for hesitation, full of raw need.","5":"6 | Gentle and reassuring – A delicate press of lips, meant to offer comfort and emotional closeness.","6":"7 | Breathless and overwhelming – A kiss so deep and consuming that it leaves both gasping for air.","7":"8 | Fleeting and uncertain – A hesitant brush of lips, unsure yet filled with longing.","8":"9 | Forehead-to-lips – A kiss pressed against the upper lip before fully deepening into something more.","9":"10 | Neck grazing – A kiss that trails along the jawline and down to the neck, causing shivers.","10":"11 | Stolen in the moment – A sudden, unexpected kiss, taken in a moment of passion or impulse.","11":"12 | Messy and desperate – Uncoordinated, filled with rushed movements and barely contained emotion.","12":"13 | Firm and grounding – A kiss that steadies and reassures, anchoring one in the other’s presence.","13":"14 | Lips barely touching – A ghost of a kiss, creating a slow, tantalising anticipation.","14":"15 | Playful bites – A mix of nibbles and kisses, teasing with soft bites along the lower lip.","15":"16 | Interrupted by laughter – A kiss that turns into smiles and giggles, too happy to be contained.","16":"17 | Slowly exploring – A kiss that starts hesitant but grows in confidence with each moment.","17":"18 | Intense eye contact beforehand – The moment before the kiss is just as powerful as the kiss itself.","18":"19 | Possessive and claiming – A deep, forceful kiss that leaves no doubt of desire or ownership.","19":"20 | Barely-there, teasing touches – A near kiss, where lips barely brush but never quite meet, prolonging the anticipation."}}
+{
+  "name": "Kissing Styles",
+  "type": "simple",
+  "entries": {
+    "0": "1 | Soft and lingering – A slow, tender kiss that conveys warmth and deep affection.",
+    "1": "2 | Passionate and urgent – Lips crash together with intensity, filled with desire and impatience.",
+    "2": "3 | Teasing and playful – A quick peck followed by another, smiles breaking between each touch.",
+    "3": "4 | Slow and deep – A gradual build-up, where every movement feels deliberate and intimate.",
+    "4": "5 | Hungry and demanding – A fierce kiss that leaves no room for hesitation, full of raw need.",
+    "5": "6 | Gentle and reassuring – A delicate press of lips, meant to offer comfort and emotional closeness.",
+    "6": "7 | Breathless and overwhelming – A kiss so deep and consuming that it leaves both gasping for air.",
+    "7": "8 | Fleeting and uncertain – A hesitant brush of lips, unsure yet filled with longing.",
+    "8": "9 | Forehead-to-lips – A kiss pressed against the upper lip before fully deepening into something more.",
+    "9": "10 | Neck grazing – A kiss that trails along the jawline and down to the neck, causing shivers.",
+    "10": "11 | Stolen in the moment – A sudden, unexpected kiss, taken in a moment of passion or impulse.",
+    "11": "12 | Messy and desperate – Uncoordinated, filled with rushed movements and barely contained emotion.",
+    "12": "13 | Firm and grounding – A kiss that steadies and reassures, anchoring one in the other’s presence.",
+    "13": "14 | Lips barely touching – A ghost of a kiss, creating a slow, tantalising anticipation.",
+    "14": "15 | Playful bites – A mix of nibbles and kisses, teasing with soft bites along the lower lip.",
+    "15": "16 | Interrupted by laughter – A kiss that turns into smiles and giggles, too happy to be contained.",
+    "16": "17 | Slowly exploring – A kiss that starts hesitant but grows in confidence with each moment.",
+    "17": "18 | Intense eye contact beforehand – The moment before the kiss is just as powerful as the kiss itself.",
+    "18": "19 | Possessive and claiming – A deep, forceful kiss that leaves no doubt of desire or ownership.",
+    "19": "20 | Barely-there, teasing touches – A near kiss, where lips barely brush but never quite meet, prolonging the anticipation."
+  }
+}

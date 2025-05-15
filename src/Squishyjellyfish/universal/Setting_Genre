@@ -1,1 +1,23 @@
-{"name":"Setting/Genre","type":"simple","entries":{"0":"1 | High Fantasy – A world of magic, mythical creatures, and grand heroics.","1":"2 | Dark Fantasy – A grim, gritty world where horror and fantasy collide.","2":"3 | Science Fiction – Futuristic technology, space travel, and alien encounters.","3":"4 | Cyberpunk – Neon lights, mega-corporations, and gritty urban sprawl.","4":"5 | Post-Apocalyptic – A ruined world struggling to survive after catastrophe.","5":"6 | Steampunk – Clockwork machinery, steam-powered tech, and Victorian flair.","6":"7 | Dieselpunk – Gritty, industrial age tech with a 1920s-1940s aesthetic.","7":"8 | Gaslamp Fantasy – A world with Victorian-era magic and mysticism.","8":"9 | Modern Supernatural – Our world, but filled with hidden magic, ghosts, and monsters.","9":"10 | Grimdark – A bleak, hopeless world where power is everything and morality crumbles.","10":"11 | Ancient Mythology – A world inspired by ancient mythological pantheons (Greek, Norse, etc.).","11":"12 | Medieval Realism – No magic here, just knights, kings, and raw historical grit.","12":"13 | Pirate Adventure – High seas, treasure hunting, and swashbuckling exploits.","13":"14 | Space Opera – Grand, sweeping, intergalactic adventure with larger-than-life stakes.","14":"15 | Horror – A terrifying world filled with fear, dread, and the unknown.","15":"16 | Urban Fantasy – Magic and the supernatural exist within a modern-day urban environment.","16":"17 | Roll Again Twice (Combine Genres) – Mix and match two other genres for a unique hybrid setting."}}
+{
+  "name": "Setting/Genre",
+  "type": "simple",
+  "entries": {
+    "0": "1 | High Fantasy – A world of magic, mythical creatures, and grand heroics.",
+    "1": "2 | Dark Fantasy – A grim, gritty world where horror and fantasy collide.",
+    "2": "3 | Science Fiction – Futuristic technology, space travel, and alien encounters.",
+    "3": "4 | Cyberpunk – Neon lights, mega-corporations, and gritty urban sprawl.",
+    "4": "5 | Post-Apocalyptic – A ruined world struggling to survive after catastrophe.",
+    "5": "6 | Steampunk – Clockwork machinery, steam-powered tech, and Victorian flair.",
+    "6": "7 | Dieselpunk – Gritty, industrial age tech with a 1920s-1940s aesthetic.",
+    "7": "8 | Gaslamp Fantasy – A world with Victorian-era magic and mysticism.",
+    "8": "9 | Modern Supernatural – Our world, but filled with hidden magic, ghosts, and monsters.",
+    "9": "10 | Grimdark – A bleak, hopeless world where power is everything and morality crumbles.",
+    "10": "11 | Ancient Mythology – A world inspired by ancient mythological pantheons (Greek, Norse, etc.).",
+    "11": "12 | Medieval Realism – No magic here, just knights, kings, and raw historical grit.",
+    "12": "13 | Pirate Adventure – High seas, treasure hunting, and swashbuckling exploits.",
+    "13": "14 | Space Opera – Grand, sweeping, intergalactic adventure with larger-than-life stakes.",
+    "14": "15 | Horror – A terrifying world filled with fear, dread, and the unknown.",
+    "15": "16 | Urban Fantasy – Magic and the supernatural exist within a modern-day urban environment.",
+    "16": "17 | Roll Again Twice (Combine Genres) – Mix and match two other genres for a unique hybrid setting."
+  }
+}

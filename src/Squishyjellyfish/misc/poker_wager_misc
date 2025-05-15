@@ -1,1 +1,16 @@
-{"name":"Poker Wager","type":"simple","entries":{"0":"1 | Small Bet – The minimum amount to stay in the hand.","1":"2 | Low Bet – Slightly above the minimum, but still cautious.","2":"3 | Steady Bet – A standard, reasonable wager.","3":"4 | Moderate Bet – A bit more confidence, raising the stakes.","4":"5 | Solid Bet – A respectable amount, making things interesting.","5":"6 | Strong Bet – A noticeable raise, applying some pressure.","6":"7 | Big Bet – A bold move, making opponents think twice.","7":"8 | Heavy Bet – A significant wager, forcing others to commit or fold.","8":"9 | Massive Bet – Nearly all-in, pushing the game to a turning point.","9":"10 | All In – Every chip on the line, no turning back."}}
+{
+  "name": "Poker Wager",
+  "type": "simple",
+  "entries": {
+    "0": "1 | Small Bet – The minimum amount to stay in the hand.",
+    "1": "2 | Low Bet – Slightly above the minimum, but still cautious.",
+    "2": "3 | Steady Bet – A standard, reasonable wager.",
+    "3": "4 | Moderate Bet – A bit more confidence, raising the stakes.",
+    "4": "5 | Solid Bet – A respectable amount, making things interesting.",
+    "5": "6 | Strong Bet – A noticeable raise, applying some pressure.",
+    "6": "7 | Big Bet – A bold move, making opponents think twice.",
+    "7": "8 | Heavy Bet – A significant wager, forcing others to commit or fold.",
+    "8": "9 | Massive Bet – Nearly all-in, pushing the game to a turning point.",
+    "9": "10 | All In – Every chip on the line, no turning back."
+  }
+}

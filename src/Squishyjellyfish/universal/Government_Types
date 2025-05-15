@@ -1,1 +1,26 @@
-{"name":"Government Types","type":"simple","entries":{"0":"1 | Monarchy – Rule is passed through a royal bloodline, often supported by tradition or religion.","1":"2 | Oligarchy – A small elite group holds power, often nobles, families, or influential clans.","2":"3 | Theocracy – Religious figures govern directly, claiming divine guidance in all decisions.","3":"4 | Democracy – Citizens vote on leadership and policies, though corruption and apathy may linger.","4":"5 | Dictatorship – A single ruler governs with absolute authority, often through fear or control.","5":"6 | Council Rule – Representatives from different groups or regions meet to make decisions.","6":"7 | Technocracy – Academics, inventors, or magical theorists lead based on intellect and expertise.","7":"8 | Anarchy – No formal government. Local powers, traditions, or warlords maintain order—if any.","8":"9 | Merchant Dominion – Trade guilds or financial powers control policy; wealth equals authority.","9":"10 | Martial Law – The military enforces direct rule, often after unrest or collapse of civil systems.","10":"11 | Magocracy – Mages and sorcerers control the government; magical skill defines social rank.","11":"12 | Rotating Leadership – Power changes regularly through lottery, trial, or public contest.","12":"13 | Corporation Rule – A private company or collective owns and governs the region, treating people as assets.","13":"14 | Plutocracy – The wealthiest citizens dictate law and leadership; power is bought openly.","14":"15 | Elder Tribunal – A council of ancient or long-lived individuals makes slow, cautious decisions.","15":"16 | Chosen Voice – A single spiritual leader, medium, or prophet rules based on divine or arcane visions.","16":"17 | Civic Assembly – Open forums allow any citizen to speak or vote; chaotic, but inclusive.","17":"18 | Warlord Rule – The strongest rules by might, often violently defending power and territory.","18":"19 | Hidden Authority – A secretive inner circle governs behind the scenes, unknown to the general public.","19":"20 | Cursed Rulership – A magical pact or ancient law binds the land to one ruler, no matter how broken or dead."}}
+{
+  "name": "Government Types",
+  "type": "simple",
+  "entries": {
+    "0": "1 | Monarchy – Rule is passed through a royal bloodline, often supported by tradition or religion.",
+    "1": "2 | Oligarchy – A small elite group holds power, often nobles, families, or influential clans.",
+    "2": "3 | Theocracy – Religious figures govern directly, claiming divine guidance in all decisions.",
+    "3": "4 | Democracy – Citizens vote on leadership and policies, though corruption and apathy may linger.",
+    "4": "5 | Dictatorship – A single ruler governs with absolute authority, often through fear or control.",
+    "5": "6 | Council Rule – Representatives from different groups or regions meet to make decisions.",
+    "6": "7 | Technocracy – Academics, inventors, or magical theorists lead based on intellect and expertise.",
+    "7": "8 | Anarchy – No formal government. Local powers, traditions, or warlords maintain order—if any.",
+    "8": "9 | Merchant Dominion – Trade guilds or financial powers control policy; wealth equals authority.",
+    "9": "10 | Martial Law – The military enforces direct rule, often after unrest or collapse of civil systems.",
+    "10": "11 | Magocracy – Mages and sorcerers control the government; magical skill defines social rank.",
+    "11": "12 | Rotating Leadership – Power changes regularly through lottery, trial, or public contest.",
+    "12": "13 | Corporation Rule – A private company or collective owns and governs the region, treating people as assets.",
+    "13": "14 | Plutocracy – The wealthiest citizens dictate law and leadership; power is bought openly.",
+    "14": "15 | Elder Tribunal – A council of ancient or long-lived individuals makes slow, cautious decisions.",
+    "15": "16 | Chosen Voice – A single spiritual leader, medium, or prophet rules based on divine or arcane visions.",
+    "16": "17 | Civic Assembly – Open forums allow any citizen to speak or vote; chaotic, but inclusive.",
+    "17": "18 | Warlord Rule – The strongest rules by might, often violently defending power and territory.",
+    "18": "19 | Hidden Authority – A secretive inner circle governs behind the scenes, unknown to the general public.",
+    "19": "20 | Cursed Rulership – A magical pact or ancient law binds the land to one ruler, no matter how broken or dead."
+  }
+}
