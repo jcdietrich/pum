@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+FULL_FILENAME=$(basename -- "$1")
+EXTENSION="${FULL_FILENAME##*.}"
+FILENAME="${FULL_FILENAME%.*}"
+
+echo "Processing $FULL_FILENAME"
+echo "Extension: $EXTENSION"
+echo "Filename: $FILENAME"
+
+mkdir -p "$FILENAME"
+
+magick -density 300 "$FULL_FILENAME" -quality 100 \
+       -shave 50x50 miff:- \
+      | magick - -crop 2x3@ +repage +adjoin miff:- \
+      | magick - -background white -fuzz 8% -trim +repage \
+      "$FILENAME/card_%03d.png"

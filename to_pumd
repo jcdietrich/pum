@@ -23,7 +23,8 @@ generate_deck_file() {
   "templateId": "${TEMPLATE_ID}",
   "name": "${NAME}",
   "rotation": 0,
-  "cards": null 
+  "cards": null,
+  "drawn":[]
 }
 EOF
 
@@ -32,41 +33,54 @@ EOF
   # creates a jsonl file with the image names and their dimensions
   # and copies the images to the temp directory
 
-  for IMAGE in "${FULL_PATH_DIR}/*.png"; do
+  cd "${FULL_PATH_DIR}" || exit 1
+
+  for IMAGE in *.png; do
     echo "Processing $IMAGE"
-    identify -ping -format '{"fileName": "%f", "width": %w, "height":  %h}' "$IMAGE" >> "${DIR}/cards.jsonl"
-    cp "${IMAGE}" "${DIR}"
+    if [[ -n "$COVER" && "$IMAGE" == *"$COVER"* ]]; then
+      echo "Setting $IMAGE as cover image"
+      identify -ping -format '{"fileName": "%f", "isCover": true, "width": %w, "height":  %h}' "$IMAGE" >> "${DIR}/cards.jsonl"
+    else
+      identify -ping -format '{"fileName": "%f", "width": %w, "height":  %h}' "$IMAGE" >> "${DIR}/cards.jsonl"
+    fi
+    echo "copying ${IMAGE} to ${DIR}"
+    cp "${IMAGE}" "${DIR}/"
   done
+
+  cd - || exit 1
 
   # convert the jsonl file to a json file
 
   jq -s '.' "${DIR}/cards.jsonl" > "${DIR}/cards.json"
-  rm cards.jsonl
 
   jq '.cards = input' "${DIR}/deck.json" "${DIR}/cards.json" > "${DIR}/${BASE_DIR_NAME}"
+
 }
 
 package_pumd() {
   echo "Packaging pumd file..."
 
   cd "$DIR" || exit 1
-  rm cards.json deck.json
+  rm -f cards.jsonl cards.json deck.json
 
   zip -9 -r "pumd.zip" *
   cd - || exit 1
 
-  touch "./output/${NAME}.pumd"
+  # PUM_ARCHIVE is a custom format used by the PUM Companion
   # Add the magic bytes to the beginning of the zip file
   # The magic bytes are: 50 55 4d 5f 41 52 43 48 49 56 45
-  # printf '\x50\x55\x4d\x5f\x41\x52\x43\x48\x49\x56\x45' | \
-  #   cat - "${DIR}/pumt.gzip" > "./output/${FILENAME}.gzip.pumt"
 
   printf '\x50\x55\x4d\x5f\x41\x52\x43\x48\x49\x56\x45' | \
-    cat - "${DIR}/pumd.zip" > "./output/${NAME}.pumd"
+    cat - "${DIR}/pumd.zip" > "./output/decks/${NAME}.pumd"
 
 }
 export BASE_DIR="$1"
 echo "BASE_DIR: $BASE_DIR"
+
+if [[ -n "$2" ]] ; then
+  echo "Will set $2 as cover image"
+  export COVER="$2"
+fi
 
 export BASE_DIR_NAME=$(basename "${BASE_DIR}")
 echo "BASE_DIR_NAME: $BASE_DIR_NAME"
@@ -97,6 +111,4 @@ echo "TEMPLATE_ID: ${TEMPLATE_ID}"
 
 generate_metadata_file
 generate_deck_file
-clean_tempdir
-add_image_files
 package_pumd

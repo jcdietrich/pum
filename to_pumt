@@ -14,13 +14,12 @@ package_pumt() {
   zip -9 -r "pumt.zip" "${FILENAME}" "metadata" 
   cd - || exit 1
 
+  # PUM_ARCHIVE is a custom format used by the PUM Companion
   # Add the magic bytes to the beginning of the zip file
   # The magic bytes are: 50 55 4d 5f 41 52 43 48 49 56 45
-  # printf '\x50\x55\x4d\x5f\x41\x52\x43\x48\x49\x56\x45' | \
-  #   cat - "${DIR}/pumt.gzip" > "./output/${FILENAME}.gzip.pumt"
 
   printf '\x50\x55\x4d\x5f\x41\x52\x43\x48\x49\x56\x45' | \
-    cat - "${DIR}/pumt.zip" > "./output/${FILENAME}.pumt"
+    cat - "${DIR}/pumt.zip" > "./output/tables/${FILENAME}.pumt"
 
 }
 
